@@ -1,0 +1,8 @@
+Access Modifiers :
+ Access Modifiers are used to control the visibility of fields,methods and constructors in a class. 
+There are 4 types of access modifiers in java. They are public,private, protected and default.
+Public : public means we can access it from any where it means we can access public modifiers from with in the class as well as outside the class and also with in the package and outside the package.
+Private : we can access this only with in same class but not from outside the class.
+protected : variables of protected access modifiers can be accessed in the same package and also from outside the package with the help of child class. If we do not create child class, we cannot access it from outside the package.
+	So, here comes the concept of inheritance and is must for accessing it from outside the package.
+Default: we can access this only with in same package and not from outside the package and also if we wont specify any access modifier it will automatically consider it as default.
